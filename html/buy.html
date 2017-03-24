@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>购买</title>
+    <link rel="stylesheet" href="../css/bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header class="container">
+        <div class="ry-header-row row">
+            <div class="col-xs-2"><a href="tjdz.html"><span class="glyphicon glyphicon-menu-left"></span></a></div>
+            <div class="col-xs-8">购买</div>
+            <div class="padding-0 col-xs-2"></div>
+        </div>
+    </header>
+    <section class="container">
+        <ul class="list-unstyled" id="tobuy-book-list">
+            <li class="row"><div class="col-xs-10">需要支付</div><div id="all-prise" class="col-xs-2 text-center">0</div></li>
+            <li class="row"><div class="payment col-xs-12">支付方式</div></li>
+            <li class="row"><a id="wechat-pay" href="#"payment="微信"><div class="col-xs-12" data-toggle="modal"><img src="../img/wechat.png">微信<span class="pull-right glyphicon glyphicon-menu-right"></span></div></a></li>
+        </ul>
+        <input id="agree-kaola" type="radio" value="agree">&nbsp;&nbsp;同意<a id="kaola-agreement" href="#">“考啦服务协议”</a><span class="color-red" id="read-kaola-alert">**请阅读考啦服务协议</span>
+    </section>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">购买成功</h4>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/angular.js"></script>
+    <script src="../js/index4.js"></script>
+</body>
+</html>

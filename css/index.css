@@ -1,0 +1,280 @@
+/*
+* @Author: diaoqi
+* @Date:   2017-03-15 10:29:15
+* @Last Modified by:   diaoqi
+* @Last Modified time: 2017-03-15 16:49:58
+*/
+html,body{
+	margin: 0;
+	font-family: Microsoft YaHei,Simsum,serif;
+	background-color: #fff;
+}
+a,a:hover,a:active,a:focus{
+	text-decoration: none;
+}
+html{
+	font-size:62.5%; /* 10÷16=62.5% */
+}
+body{
+	font-size:12px;
+	font-size:1.2rem ; /* 12÷10=1.2 */
+}
+.buy-info{
+	background-color: #E8F2F1;
+	height: 56px;
+}
+.buy-info>div>div{
+	background-color: #EFB48A;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-top: 13px;
+	padding:0;
+	border-radius: 15px;
+}
+.buy-info>div>div>a{
+	color: white;
+	font-size: 1.4rem;
+}
+.section-body{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	border-bottom: 1px solid #dfdfdf;
+}
+#section-choose-book{
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.ry-header-row>div{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 1.6rem;
+	color: #2db8b8;
+	border-bottom: 1px solid #2db8b8;
+}
+.ry-header-row a{
+	color: #2db8b8;
+}
+.choose-proj{
+	border: 1px solid #c6c6c6;
+	height: 40px;
+	line-height: 16px;
+	margin: 8px -12px;
+	border-radius: 4px;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 2px 0;
+
+}
+
+.ry-choose-proj-row{
+	margin: 0;
+}
+.ry-choose-proj-row a{
+	color: black;
+	
+}
+.active .choose-proj{
+	border-color: #2db8b8;
+	color: #2db8b8;
+}
+.active-all .choose-proj{
+	border-color: #2db8b8;
+	color: #2db8b8;
+}
+#select-all{
+	height: 34px;
+	line-height: 34px;
+}
+.section-footer{
+	margin-top: 6px;
+	font-size: 1.2rem;
+}
+.section-footer ul{padding-left: 22px;}
+.section-footer ul li,.section-footer ul li p span{
+	line-height: 16px;
+	margin: 10px 0;
+	color: #F3B38D;
+}
+.section-footer ul li p{
+	color: #c6c6c6;
+}
+.next-button{
+	background-color: #2EBABB;
+	color: white;
+	line-height: 36px;
+	text-align: center;
+	border-radius: 18px;
+}
+.next-button-a{
+	margin-top: 50px;
+	display: block;
+}
+.ry-header-row span{
+	font-size: 1.2rem;
+	color: black;
+}
+.padding-0{
+	padding: 0;
+}
+#tobuy-book-list>li{
+	line-height: 50px;
+	border-bottom: 1px solid #dfdfdf;
+	font-size: 1.4rem;
+}
+#tobuy-book-list>li>textarea{
+	line-height: 20px;
+}
+#tobuy-book-list>li span{
+	display: inline-block;
+	text-align: center;
+}
+.price{
+	color: #F3B38D;
+	font-size: 1rem;
+	display: inline-block;
+}
+#tobuy-book-list .pull-right a{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	margin-top: 15px;
+	line-height: 18px;
+}
+#tobuy-book-list label{
+	padding-right: 0;
+}
+#tobuy-book-list input{
+	height: 46px;
+	margin-top: 2px;
+}
+.tobuy-book-num{
+	width: 2rem;
+	margin:0 6px;
+}
+.tobuy-book-add>a{
+	background-color: #2EBABB;
+	color: white;
+}
+.tobuy-book-sub>a{
+	color: #2EBABB;
+	background-color: white;
+	border: 1px solid #2EBABB;
+	line-height: 16px;
+}
+.color-red{
+	color: red;
+}
+input,textarea,label{
+	border: 0;
+	margin-bottom: 0;
+}
+.address-info{
+	line-height: 30px;
+	margin: -10px 0 10px 0;
+}
+.address-info select{
+}
+.choose-address{
+	padding-left: 0;
+}
+#all-prise{
+	color: #F3B38D;
+	font-size: 1.8rem;
+	padding: 0;
+}
+.payment{
+	color: #7A7A7A;
+	font-size: 1.2rem;
+}
+#wechat-pay span{
+	line-height: 50px;
+}
+#wechat-pay img{
+	height: 32px;
+	margin: auto;
+	margin: 0 14px 4px 0;
+
+}
+#kaola-agreement{
+	color:#2EBABB;
+}
+.order-form-head{
+	height: 38px;
+	line-height: 38px;
+	background-color: #e8f2f1;
+	color: #efb48a;
+}
+.color-gray {
+	color: #A8A8A8;
+}
+.buy-book-info{
+	line-height: 20px;
+	margin-top: 6px;
+}
+.buy-book-info ul div{
+	color: black;
+	font-size: 1.5rem;
+	line-height: 26px;
+	height: 26px;
+	padding: 0;
+}
+.buy-book-info li{
+	padding-left: 15px;
+}
+.buy-book-info ul span{
+	font-size: 1.1rem;
+	display: inline-block;
+	height: 25px;
+	line-height: 25px;
+}
+.buy-book-foot{
+	height: 52px;
+	line-height: 52px;
+	color: #efb48a;
+	border-bottom: 1px solid #d9D9D9;
+	margin-bottom: 2px;
+}
+.buy-book-foot>div{
+	background-color: #EFB48A;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	margin-top: 14px;
+	padding:0;
+	border-radius: 12px;
+}
+.buy-book-foot>div>a{
+	color: white;
+	font-size: 1.2rem;
+}
+.modal-dialog{
+	margin: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
