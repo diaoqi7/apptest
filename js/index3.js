@@ -26,7 +26,12 @@ $("#next-button2").on("click",function(e){
     	$(".alert-not-enough2").show();
         $(".alert-not-enough1").hide();
         e.preventDefault();
-    }
+    }else if($("#s_province").val() == "省份" || $("#s_city").val() == "地级市"){
+    	$(".alert-not-enough2").html("请选择地址");
+    	$(".alert-not-enough2").show();
+        $(".alert-not-enough1").hide();
+        e.preventDefault();
+    };
     
 })
 

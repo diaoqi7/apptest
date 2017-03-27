@@ -37,19 +37,7 @@
                             <script class="resources library" src="../js/area.js" type="text/javascript"></script>
                             <script type="text/javascript">_init_area();</script>
                         </div>
-                        <div id="show"></div>
                     </div>
-                    <script type="text/javascript">
-                        var Gid  = document.getElementById ;
-                        var showArea = function(){
-                            Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" +
-                            Gid('s_city').value + " - 县/区" +
-                            Gid('s_county').value + "</h3>"
-                            }
-                        Gid('s_county').setAttribute('onchange','showArea()');
-                    </script>
-                    <!--<input id="input-address" class="col-xs-8" type="text" name="address" value="" readonly/>-->
-                    <!-- <a class="choose-address col-xs-1" href="#"><span class="glyphicon glyphicon-menu-right"></span></a> -->
                 </li>
                 <li class="row">
                     <textarea id="derective-address" class="col-xs-12" rows="4" cols="" placeholder="请填写详细地址，不少于5个字"></textarea>
