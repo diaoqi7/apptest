@@ -42,6 +42,9 @@ function addDomFunction3(){
     for( var i in bookarray){
         totalPrice += projPrice[bookarray[i]];
     }
+    if(bookarray.length < 6){
+        totalPrice += 10;
+    }
     $("#all-prise").html(totalPrice);
 }
 
