@@ -36,11 +36,11 @@ $.ajax({
 });
 
 function addDomFunction3(){
-    var bookNumarray = localStorage.getItem("bookNumarray");
-    bookNumarray = strToJson(bookNumarray);
+    var bookarray = localStorage.getItem("bookarray");
+    bookarray = strToArray(bookarray);
     var totalPrice = 0;
-    for( var i in bookNumarray){
-        totalPrice += projPrice[i]*bookNumarray[i];
+    for( var i in bookarray){
+        totalPrice += projPrice[bookarray[i]];
     }
     $("#all-prise").html(totalPrice);
 }
@@ -50,7 +50,10 @@ function addDomFunction3(){
 function strToJson(str){
     return JSON.parse(str);
 }
-
+function strToArray(str){
+    ss = str.split(",");
+    return ss;
+}
 function getJsonLength(jsonData){
     var jsonLength = 0;
     for(var item in jsonData){
